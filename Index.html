@@ -1,0 +1,124 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Badoru Store</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #111;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .product {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin: 15px;
+      width: 300px;
+      padding: 20px;
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .product h3 {
+      margin-top: 15px;
+    }
+    .price {
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    .btn {
+      background: #111;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+    form {
+      background: #fff;
+      max-width: 500px;
+      margin: 40px auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    input, textarea, select {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .submit-btn {
+      background: #111;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Badoru Store</h1>
+    <p>Trendy gadgets & lifestyle dropshipping</p>
+  </header>  <div class="container">
+    <!-- Product 1 -->
+    <div class="product">
+      <img src="https://ae01.alicdn.com/kf/Sbdeca726d8574c84b9a7cf287dcff8b6u.jpg" alt="Mini Bluetooth Speaker" />
+      <h3>Mini Bluetooth Speaker</h3>
+      <p class="price">$14.99</p>
+      <a class="btn" href="https://www.paypal.me/NobodyHere491/14.99">Buy with PayPal</a>
+    </div><!-- Product 2 -->
+<div class="product">
+  <img src="https://ae01.alicdn.com/kf/Hd3dc95b634a7479e9cc6a0c1f57b9833L.jpg" alt="Smart Star Projector" />
+  <h3>Smart Galaxy Projector</h3>
+  <p class="price">$24.99</p>
+  <a class="btn" href="https://www.paypal.me/NobodyHere491/24.99">Buy with PayPal</a>
+</div>
+
+<!-- Product 3 -->
+<div class="product">
+  <img src="https://ae01.alicdn.com/kf/Sae3bcf3ec7e74bc891d7be512d765d3a5.jpg" alt="Magnetic Phone Holder" />
+  <h3>Magnetic Phone Holder</h3>
+  <p class="price">$9.99</p>
+  <a class="btn" href="https://www.paypal.me/NobodyHere491/9.99">Buy with PayPal</a>
+</div>
+
+  </div>  <form action="https://formspree.io/f/mnqepzjd" method="POST">
+    <h2>Shipping Details</h2>
+    <p>After payment, please fill this form so we can ship your order.</p>
+    <input type="text" name="name" placeholder="Full Name" required />
+    <input type="text" name="address" placeholder="Shipping Address" required />
+    <input type="text" name="product" placeholder="Product Name" required />
+    <input type="email" name="email" placeholder="Your Email (optional)" />
+    <button class="submit-btn" type="submit">Submit</button>
+  </form>  <footer>
+    &copy; 2025 Badoru Store. All rights reserved.
+  </footer>
+</body>
+</html>
